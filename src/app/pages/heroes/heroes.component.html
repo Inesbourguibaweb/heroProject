@@ -1,0 +1,11 @@
+
+<div class="container">
+  <h1> Add a Details </h1>
+  <form (ngSubmit)="addHero()">
+    <div class="row">
+      <p> Hero name </p>
+      <input name="name" [(ngModel)]="hero.name" placeholder="name">
+    </div>
+      <button type="submit" >Submit</button>
+  </form>
+</div>
