@@ -10,9 +10,10 @@ import { FormsModule } from '@angular/forms';
 import { HeroesComponent } from './pages/heroes/heroes.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModel } from './app-routing.module';
+import { AuthComponent } from './pages/auth/auth.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroesComponent],
+  declarations: [AppComponent, HeroesComponent, AuthComponent],
   imports: [
     BrowserModule,
     RouterModule,
